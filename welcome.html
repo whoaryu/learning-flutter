@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="welcomestyle.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcomeee to HTML 101 </title>
+</head>
+<body>
+    <label class="toggle-container">
+        <input type="checkbox" class="toggle-checkbox" id="toggleSwitch"> 
+        <div class="toggle-background">
+            <div class="toggle-switch"></div>
+        </div>
+        <span class="toggle-label toggle-label-on"> </span>
+        <span class="toggle-label toggle-label-off"> </span>
+    </label>
+
+    <script>
+        // JavaScript to handle the page redirection
+        const toggleSwitch = document.getElementById('toggleSwitch');
+
+        toggleSwitch.addEventListener('change', function () {
+            if (this.checked) {
+                // Redirect to a page when the switch is turned on
+                window.location.href = "trial.html";
+            } else {
+                // Redirect to another page when the switch is turned off
+                window.location.href = "welcome.html";
+            }
+    });
+    </script><br>
+    <marquee width="90%" direction="lefts" height="100%">
+        <h1>
+        if cinderalla's shoe fits so perfectly, then how did it fall in the first place??&emsp;deep down, we all are really shallow.&emsp;If you make a new year's resolution to not keep any new year's resolutions. Would you keep it?
+        </h1>
+    </marquee>
+    <button class="subkaro">SUBSCRIBE</button>
+    &emsp;
+    <button class="joinpls">JOIN</button>
+    <button class="tweet">TWEET</button>
+    <h1>Hello... how are? khana khaake jaana huh!</h1>
+    
+    <figure>
+        <img src=hansa.jpg alt="kya huaaa? what is?" style="width:50%; border-radius: 50px;">
+        <figcaption style="font-family:Verdana;"><h2>Me after writing 5 lines of code</h2></figcaption>
+    </figure>
+    <div  class="kavita">
+        <h2><u>Aapke liye ek kavita arz hai:</u></h2>
+        <pre>
+        My Bonnie lies over the ocean.
+        My Bonnie lies over the sea.
+        My Bonnie lies over the ocean.
+        Oh, bring back my Bonnie to me.
+        </pre>
+    </div>
+
+    <p><h2>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.<br>
+    <cite>The Scream</cite> by Edvard Munch. Painted in 1893.<br>
+    <bdo dir="rtl">Can you read this?</bdo>
+    </p></h2>
+
+    <address>
+        Written by Aryan Shah.<br>
+        Visit us at:instagram.com/filterfusion<br>
+        whoisaryan.blogspot.com<br>
+        Borivali, Mumbai<br>
+        India
+    </address>
+    <a href="trial.html"><button1>Ghar wapasi</button1></a><br><br><br>
+    <br><br><br><br>
+</body>
+</html>
